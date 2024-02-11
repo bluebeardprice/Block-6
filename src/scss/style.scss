@@ -1,0 +1,58 @@
+// Подключения
+
+@import './color-variables.scss';
+@import './screen-variables.scss';
+@import './font-face.scss';
+@import './reset.scss';
+@import './wrapper.scss';
+@import './header.scss';
+@import './circle-btn.scss';
+@import './contact-menu.scss';
+@import './divider.scss';
+@import './main.scss';
+@import './main-section.scss';
+@import './nav.scss';
+@import './about-us.scss';
+@import './more-btn.scss';
+@import './link-logo';
+@import url('https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
+@import './section-header.scss';
+@import './section-title.scss';
+@import './swiper.scss';
+@import './brands-section.scss';
+@import './highlight.scss';
+@import './email.scss';
+@import './phone.scss';
+@import './burger-menu.scss';
+@import './languages-menu.scss';
+@import './sections-wrapper.scss';
+@import './blur.scss';
+@import './content-card.scss';
+@import './repair-section.scss';
+@import './btn.scss';
+@import './price-section.scss';
+@import './footer.scss';
+@import './modal-page.scss';
+@import './modal-wrapper.scss';
+@import './offer.scss';
+
+// Базовые свойства
+
+html {
+  font-family: 'TTLakes', Helvetica, sans-serif;
+}
+
+body {
+  background-color: $color-main-background;
+  color: $text-color-main-black;
+}
+
+// Вспомогательные классы
+
+.flex {
+  display: flex;
+}
+
+.unscroll-laptop {
+  overflow: hidden;
+}
